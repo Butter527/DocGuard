@@ -29,7 +29,7 @@ function App () {
       // Your request body
       const requestBody = {
         "prompt" : value,
-        "k" : 4
+        "k" : 2
       };
       // Making a GET request with query parameters
       const response = await fetch(apiUrl, {
